@@ -1,3 +1,20 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ["~"]
+
+- link:
+    ~/.bash_profile:
+      force: true
+      path: bash_profile
+    ~/.bashrc:
+      force: true
+      path: bashrc
+    ~/.zshenv:
+      force: true
+      path: zshenv
+    ~/.zshrc:
+      force: true
+      path: zshrc
+    ~/.tool-versions: tool-versions
+    ~/.default-npm-packages: default-npm-packages
+    ~/.gitconfig: gitconfig
+
+  
