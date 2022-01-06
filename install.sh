@@ -9,4 +9,4 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-git clone git@github.com:hcochran21/dotfiles.git ~/Documents/github/.dotfiles && (cd ~/Documents/github/.dotfiles && ./bootstrap.sh)
+git clone git@github.com:hcochran21/dotfiles.git ~/.dotfiles && (cd ~/.dotfiles && ./bootstrap.sh)
