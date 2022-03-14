@@ -3,7 +3,8 @@
 echo '--- Updating brew ---'
 brew update
 
-# echo '--- Installing brew packages ---'
+echo '--- Installing brew packages ---'
+brew install node
 
 echo '--- Installing brew casks ---'
 
